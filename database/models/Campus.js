@@ -13,6 +13,11 @@ const Campus = db.define("campus", {
     allowNull: false
   },
 
+  imageUrl: {
+    type: Sequelize.STRING,
+    defaultValue: "https://www.campuskit.org/admin/uploads/college-gallery/thumbs/photo-1607237138185-eedd9c632b0b1.jpg"
+  },
+
   address: {
     type: Sequelize.STRING,
     allowNull: false

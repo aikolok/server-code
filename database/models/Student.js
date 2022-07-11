@@ -15,6 +15,20 @@ const Student = db.define("student", {
   lastname: {
     type: Sequelize.STRING,
     allowNull: false
+  },
+
+  email: {
+    type: Sequelize.STRING,
+    allowNull: false
+  },
+
+  imageUrl: {
+    type: Sequelize.STRING,
+    defaultValue: "https://upload.wikimedia.org/wikipedia/commons/7/7c/College_Textbooks.jpg"
+  },
+
+  gpa: {
+    type: Sequelize.DECIMAL(10,1)
   }
 });
 

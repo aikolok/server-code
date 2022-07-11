@@ -1,5 +1,5 @@
 {
-  "name": "starter-server",
+  "name": "express",
   "version": "1.0.0",
   "description": "backend for crud app",
   "main": "app.js",
@@ -18,5 +18,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aikolok/server-code.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aikolok/server-code/issues"
+  },
+  "homepage": "https://github.com/aikolok/server-code#readme"
 }
